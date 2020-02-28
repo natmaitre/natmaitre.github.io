@@ -52,3 +52,22 @@ nav a:hover {
 
 
 /* Fin barre de navigation */
+
+/* Bannière du site */
+.banner {
+	width: 100%;
+}
+
+.ban {
+	width: 100%;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.ban img {
+	width: 100%;
+	max-width: 100%;
+	top: 0px;
+}
+
+/* Fin Bannière du site */

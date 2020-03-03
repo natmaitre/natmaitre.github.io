@@ -8,3 +8,5 @@ if (lang === "en") document.getElementById("meme_title").innerHTML = "Watch Meme
 if (lang === "en") document.getElementById("learn_title").innerHTML = "Learn";
 
 if (lang === "en") document.getElementById("desc_home").innerHTML = "<center>Hello and Welcome to my web site Natmaitr.<br>What is the web site Natmaitre ?<br><br>The web site Natmaitre, its a web site were you can play games online or watch meme...</br>Thank-you for using my web site !!</center>";
+
+if (lang === "en") document.getElementById("desc_meme").innerHTML = "<center>Hello and  sur l'onglet meme.<br><br>Dans cette onglet tu pourras regarder des memes.<br>Clique sur le boutton avec la langue choisi.";

@@ -1,4 +1,4 @@
-var lang = "en";
+var lang = "fr";
 if (lang === "en") document.getElementById("home_title").innerHTML = "Home";
 
 if (lang === "en") document.getElementById("games_title").innerHTML = "Online Games";

@@ -3,6 +3,7 @@ if (lang === "en") document.getElementById("home_title").innerHTML = "Home";
 
 if (lang === "en") document.getElementById("games_title").innerHTML = "Online Games";
 
+if (lang === "en") document.getElementById("moi_title").innerHTML = "About me";
 
 if (lang === "en") document.getElementById("learn_title").innerHTML = "Learn";
 

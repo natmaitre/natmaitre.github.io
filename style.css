@@ -1,0 +1,52 @@
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #7CB9E8;
+}
+
+.logo {
+  width: 90px;
+  height: 70px;
+}
+
+.row {
+	margin: 0px 0px;
+}
+
+.ban img {
+  width: 100%;
+}
+
+footer {
+  background-color: #291e28;
+}
+
+footer .articlefooter {
+  margin-top: 10px;
+  padding: 30px 30px 30px 30px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+footer .articlefooter h2 {
+  text-align: center;
+}
+
+footer .articlefooter p {
+  padding-top: 10px;
+  margin-top: 25px;
+  font-family: myriad pro;
+}
+
+footer .articlefooter img {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 90px;
+  width: 90px;
+}

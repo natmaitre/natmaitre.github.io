@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Cliker Game</title>
+    <script> 
+    var clicker = {
+        generics:0,
+        upgrades: {
+            generic_machine:{
+                amount:0,
+                cost:10,
+                gps:1,
+                name:"Test"
+            },
+            generic_test:{
+                amount:0,
+                cost:20,
+                gps:1,
+                name:"Test OLOLO"
+            }
+        }
+    };
+    function thing_clicked(thing){
+        clicker.upgrades[thing].amount++
+        update_upgrades();
+    }
+    function update_upgrades() {
+        document.querySelector("#upgrades").innerHTML="";
+        for(i in clicker.upgrades){
+            document.querySelector("#upgrades").innerHTML+= `<br> <button onclick="thing_clicked('${i}')">${clicker.upgrades
+    [i].name}</button> Vous avez ${clicker.upgrades[i].amount}`;
+        }
+    }
+    function updatecount(){
+        update_upgrades();
+        setInterval(() => {
+            for(i in clicker.upgrades){
+                clicker.generics+=clicker.upgrades[i].amount*clicker.upgrades[i].gps/20
+            }
+            document.querySelector("#generics").innerHTML = "Vous avez "+String(clicker_generics).split(".")[0]+" $"
+        },50)
+    }
+    </script>
+</head>
+<body onload="updatecount()">
+    <h1 id="generics">Vous avez $0</h1>
+    <button onclick="clicker.generics('generics')""> Argent</button>
+    <div id="upgrades">
+</body>
